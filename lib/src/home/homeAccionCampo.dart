@@ -1184,8 +1184,8 @@ class _SelectSyncState extends State<SelectSync> {
                       child: ListView(shrinkWrap: true, children: <Widget>[
                         Row(
                           children: <Widget>[
-                            Expanded(child:
-                            Column(
+                            Expanded(
+                              child:Column(
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: <Widget>[
                                 Text('I. ¿Qué no está funcionando?. - Trabajador', textAlign: TextAlign.left, style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16,fontFamily: 'RobotoMono')),
